@@ -16,19 +16,23 @@
         <div class="wrapper">
             <form action="POST" method="post">
                 <div class="form-field">
-                    <label for="date1">What is your first date?</label>
+                    <label for="date1">Test if this date is within 3 years</label>
                     <input type="date" id="date1" name="date1">
                 </div>
                 <div class="form-field">
-                    <label for="date2">What is your first date?</label>
+                    <label for="date2">Test if this date is within 1 year</label>
                 <input type="date" id="date2" name="date2">
                 </div>
             </form>
-            <div class="info-field">
-                <h2>Looks like you date is within 3 years</h2>
-            </div>
-            <div class="info-field">
-                <h2>Looks like your date is within 12 months</h2>
+            <div class="info=boxes">
+                <div class="info-field date-three-years">
+                    <h2>Looks like you date is within 3 years</h2>
+                    <p>The first you entered is within the last 3 years</p>
+                </div>
+                <div class="info-field date-one-year">
+                    <h2>Looks like your date is within 1 year</h2>
+                    <p>The second date you entered is wihin one year</p>
+                </div>
             </div>
         </div>
     </main>
