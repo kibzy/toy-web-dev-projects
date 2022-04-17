@@ -56,3 +56,24 @@ header {
     max-width: 650px;
     margin: 0 auto;
 }
+
+/*typography*/
+body {
+    font-size: 16px
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+form label {
+    font-size: 2rem;
+}
+
+.info-field p {
+    font-size: 1.7rem;
+}
